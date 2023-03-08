@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> forms html page </title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="style.css">
+        <script>alert("Must fill form to proceed")</script>
+        <h1>Registration form</h1>
+        <div id = "reg-form">
+            <fieldset>
+                <legend>Registration</legend>
+            <form action="success.html"method="">
+                <label for="first-name">FirstName:</label>
+                <input type="text"name="first-name"placeholder="FirstName" required>
+                <label for="last-name">LastName:</label>
+                <input type="text"name="last-name"placeholder="LastName" required>
+                <div>
+                    <label for="gender">Female</label>
+                    <input type="radio"name="gender" value ="choice-1"required>
+                    <label for="gender">Male</label>
+                    <input type="radio"name="gender" value ="choice-2" required>
+                    <label for="gender">Other</label>
+                    <input type="radio"name="gender" value ="choice-3" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="something@gmail.com">
+                    <label for="password">password</label>
+                    <input type="password" name="password" required >
+                    <label for="phone">Phone No:</label>
+                    <input type="tel" name="phone" required>
+                </div>
+                <div>
+                    <label for="DOB">Date of Birth</label>
+                    <input type="date" name="DOB" required>
+                </div>
+                <div>
+                    <label for="agree">I AGREE TO ALL THE TERMS AND CONDITIONS OF THIS FORM</label>
+                    <input type="checkbox" name="agree" required>
+                </div>
+                <div>
+                    <button type="submit">submit 
+                    </button>
+                    
+                    </script>
+                </div>
+            </form>
+             </fieldset>
+        </div>
+    </body>
+</html>
